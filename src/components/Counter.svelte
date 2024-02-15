@@ -3,7 +3,7 @@
 
 	let count = $state(0);
 
-	const displayed_count = spring();
+	const displayed_count = spring(0);
 
 	$effect(() => {
 		displayed_count.set(count);
